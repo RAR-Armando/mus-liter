@@ -1,5 +1,24 @@
-const btnThem = document.querySelector(".btn-them")
-const bodyThem = document.querySelector(".body")
-btnThem.addEventListener("click", function () {
-   bodyThem.classList.toggle("black")
+const btnToggle = document.querySelector(".themes-btn")
+const body = document.querySelector(".body")
+const navPanel = document.querySelector(".nav-panel")
+
+
+
+
+
+btnToggle.addEventListener("click", function(){
+
+btnToggle.classList.toggle("themes-btn-dark")
+body.classList.toggle("dark-body")
+navPanel.classList.toggle("nav-panel-dark")
+
+
 });
+
+
+
+
+
+
+
+

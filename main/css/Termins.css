@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 * {
-  font-family: "Comfortaa", cursive;
+  font-family: 'Comfortaa', cursive;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: none;
   outline: none;
   color: #fff;
@@ -15,13 +16,21 @@ body {
   background-attachment: fixed;
 }
 
+.dark-body {
+  background: #444444;
+  background: -webkit-gradient(linear, left top, right top, from(#444444), to(black));
+  background: linear-gradient(90deg, #444444 0%, black 100%);
+}
+
 .content {
   padding-left: 60px;
 }
+
 .content .title {
   font-size: 42px;
   line-height: 100px;
 }
+
 .content .text {
   margin-top: 20px;
   font-size: 18px;
@@ -35,9 +44,34 @@ body {
   background-color: rgba(254, 254, 254, 0.6);
 }
 
+.nav-panel-dark {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .img-link {
   width: 35px;
   height: 35px;
   margin-top: 25px;
-  transition: 0.6s;
+  -webkit-transition: .6s;
+  transition: .6s;
 }
+
+.themes-cont {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+}
+
+.themes-cont .themes-btn {
+  width: 120px;
+  height: 50px;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+}
+
+.themes-cont .themes-btn-dark {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+/*# sourceMappingURL=Termins.css.map */
