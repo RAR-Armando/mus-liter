@@ -23,18 +23,22 @@ body {
 }
 
 .content {
-  padding-left: 60px;
+  width: 100%;
+  padding-left: 57px;
 }
 
 .content .title {
   font-size: 42px;
-  line-height: 100px;
+  line-height: 50px;
+  padding-top: 10px;
 }
 
 .content .text {
+  padding-top: 30px;
   margin-top: 20px;
   font-size: 18px;
   line-height: 30px;
+  padding-bottom: 20px;
 }
 
 .nav-panel {
@@ -73,5 +77,10 @@ body {
 .themes-cont .themes-btn-dark {
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
+}
+
+.nav-panel {
+  height: 3344px;
+  position: fixed;
 }
 /*# sourceMappingURL=Termins.css.map */
