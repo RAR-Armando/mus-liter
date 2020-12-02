@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+}
+
+
+
+.body{
+  
+    background: url(../img/back.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-body{
+    background: rgb(68,68,68);
+background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+.nav-panel{
+  position: fixed;
+    width: 40px;
+    height: 100%;
+    background-color: rgba(254,254,254, .6);
+}
+.nav-panel-dark{
+    background-color: rgba(0,0,0, .6);
+}
+
+.img-link{
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+    transition: .6s;
+
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 25px;
+  
+}
+
+
+.card{
+    margin-top:20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0, .6);
+    width: 283px;
+    height: 153px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.card-title{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.card-text{padding: 7px;}
+.card-btn{
+    background-color: rgba(254,254,254, .6);
+    margin: 10px;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+
+    
+}
+
+.card-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.orkestr{
+    background: url(../img/card-back.jpg.png);
+    background-size: cover;
+}
+
+.termins{
+    background: url(../img/card-back-term.jpg.png);
+    background-size: cover;
+}
+
+.ads{
+    background: url(../img/ads.jpg);
+        background-size: cover;
+}
+
+.themes-cont{
+    position: fixed;
+    right:  1em;
+    bottom: 1em;
+    .themes-btn{
+        width: 120px;
+        height: 50px;
+        background: #fff;
+        color: #000;   
+        border-radius: 50px;
+    }
+    .themes-btn-dark{
+        background: rgba(0,0,0, .6);
+        color: #fff;   
+    }
+}

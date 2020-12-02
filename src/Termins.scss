@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    color: #fff;
+
+}
+
+
+body{
+    background: url(../img/back.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.dark-body{
+    background: rgb(68,68,68);
+background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.content{
+width: 100%;
+  padding-left: 57px;
+
+    .title{
+        font-size: 42px;
+        line-height: 50px;
+        padding-top: 10px;
+       
+
+    }
+    .text{
+         padding-top: 30px;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+
+.nav-panel{
+    position: absolute;
+      width: 40px;
+      height: 100vh;
+      background-color: rgba(254,254,254, .6);
+  }
+  
+  .nav-panel-dark{
+    background-color: rgba(0,0,0, .6);
+}
+  .img-link{
+      width: 35px;
+      height: 35px;
+      margin-top: 25px;
+      transition: .6s;
+  
+  }
+
+
+  .themes-cont{
+    position: fixed;
+    right:  1em;
+    bottom: 1em;
+    .themes-btn{
+        width: 120px;
+        height: 50px;
+        background: #fff;
+        color: #000;   
+        border-radius: 50px;
+    }
+    .themes-btn-dark{
+        background: rgba(0,0,0, .6);
+        color: #fff;   
+    }
+}
+
+.nav-panel{
+    height: 3344px;
+    position: fixed;
+}
