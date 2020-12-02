@@ -1,10 +1,16 @@
 const btnToggle = document.querySelector(".themes-btn")
 const body = document.querySelector(".body")
 const navPanel = document.querySelector(".nav-panel")
-
-
-
-
+const imgBtn = document.querySelector(".img-btn")
+const modal = document.querySelector(".modal")
+const imgClose = document.querySelector(".img-close")
+const bodyImg1 = document.querySelector(".img-card-1")
+const bodyImg2 = document.querySelector(".img-card-2")
+const bodyImg3 = document.querySelector(".img-card-3")
+const bodyImg4 = document.querySelector(".img-card-4")
+const bodyImg5 = document.querySelector(".img-card-5")
+const bodyImg6 = document.querySelector(".img-card-6")
+const bodyImg7 = document.querySelector(".img-card-7")
 
 btnToggle.addEventListener("click", function(){
 
@@ -15,10 +21,49 @@ navPanel.classList.toggle("nav-panel-dark")
 
 });
 
+imgBtn.addEventListener("click", function(){
+modal.classList.toggle("modal-open")
+
+});
 
 
 
+imgClose.addEventListener("click", function(){
+modal.classList.remove("modal-open")
+});
 
 
+bodyImg1.addEventListener("click", function(){
+body.classList.toggle("body-card-1")
 
+});
 
+bodyImg2.addEventListener("click", function(){
+    body.classList.toggle("body-card-2")
+    
+});
+
+bodyImg3.addEventListener("click", function(){
+        body.classList.toggle("body-card-3")
+        
+});
+
+bodyImg4.addEventListener("click", function(){
+    body.classList.toggle("body-card-4")
+    
+});
+
+bodyImg5.addEventListener("click", function(){
+    body.classList.toggle("body-card-5")
+    
+});
+
+bodyImg6.addEventListener("click", function(){
+    body.classList.toggle("body-card-6")
+    
+});
+
+bodyImg7.addEventListener("click", function(){
+    body.classList.toggle("body-card-7")
+    
+});
