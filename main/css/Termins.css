@@ -141,50 +141,50 @@ body {
 }
 
 .img-card-1 {
-  width: 350px;
-  height: 160px;
+  width: 150px;
+  height: 90px;
   background: url(../img/modal-img-1.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-2 {
-  width: 350px;
-  height: 160px;
+  width: 150px;
+  height: 90px;
   background: url(../img/modal-img-2.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-3 {
-  width: 350px;
-  height: 160px;
+  width: 150px;
+  height: 90px;
   background: url(../img/modal-img-3.png) no-repeat center;
   background-size: cover;
 }
 
 .img-card-4 {
-  width: 350px;
-  height: 160px;
+  width: 150px;
+  height: 90px;
   background: url(../img/modal-img-4.png) no-repeat center;
   background-size: cover;
 }
 
 .img-card-5 {
-  width: 350px;
-  height: 160px;
+  width: 150px;
+  height: 90px;
   background: url(../img/modal-img-5.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-6 {
-  width: 350px;
-  height: 160px;
+  width: 150px;
+  height: 90px;
   background: url(../img/modal-img-6.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-7 {
-  width: 350px;
-  height: 160px;
+  width: 150px;
+  height: 90px;
   background: url(../img/modal-img-7.jpg) no-repeat center;
   background-size: cover;
 }
@@ -209,42 +209,35 @@ body {
 .body-card-1 {
   background: url(../img/modal-img-1.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .body-card-2 {
   background: url(../img/modal-img-2.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .body-card-3 {
   background: url(../img/modal-img-3.png) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .body-card-4 {
   background: url(../img/modal-img-4.png) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .body-card-5 {
   background: url(../img/modal-img-5.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .body-card-6 {
   background: url(../img/modal-img-6.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .body-card-7 {
   background: url(../img/modal-img-7.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 /*# sourceMappingURL=Termins.css.map */
