@@ -6,7 +6,6 @@ const modal = document.querySelector(".modal")
 const imgClose = document.querySelector(".img-close")
 const bodyImg1 = document.querySelector(".img-card-1")
 const bodyImg2 = document.querySelector(".img-card-2")
-const bodyImg3 = document.querySelector(".img-card-3")
 const bodyImg4 = document.querySelector(".img-card-4")
 const bodyImg5 = document.querySelector(".img-card-5")
 const bodyImg6 = document.querySelector(".img-card-6")
@@ -43,10 +42,7 @@ bodyImg2.addEventListener("click", function(){
     
 });
 
-bodyImg3.addEventListener("click", function(){
-        body.classList.toggle("body-card-3")
-        
-});
+
 
 bodyImg4.addEventListener("click", function(){
     body.classList.toggle("body-card-4")

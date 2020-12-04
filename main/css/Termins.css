@@ -80,10 +80,8 @@ body {
 }
 
 .modal .modal-window {
-  width: 80vh;
+  width: 100%;
   height: 100vh;
-  background-color: rgba(252, 252, 252, 0.6);
-  padding: 5px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -141,62 +139,62 @@ body {
 }
 
 .img-card-1 {
-  width: 150px;
-  height: 90px;
+  width: 250px;
+  height: 120px;
   background: url(../img/modal-img-1.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-2 {
-  width: 150px;
-  height: 90px;
+  width: 250px;
+  height: 120px;
   background: url(../img/modal-img-2.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-3 {
-  width: 150px;
-  height: 90px;
+  width: 250px;
+  height: 120px;
   background: url(../img/modal-img-3.png) no-repeat center;
   background-size: cover;
 }
 
 .img-card-4 {
-  width: 150px;
-  height: 90px;
+  width: 250px;
+  height: 120px;
   background: url(../img/modal-img-4.png) no-repeat center;
   background-size: cover;
 }
 
 .img-card-5 {
-  width: 150px;
-  height: 90px;
+  width: 250px;
+  height: 120px;
   background: url(../img/modal-img-5.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-6 {
-  width: 150px;
-  height: 90px;
+  width: 250px;
+  height: 120px;
   background: url(../img/modal-img-6.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-card-7 {
-  width: 150px;
-  height: 90px;
+  width: 250px;
+  height: 120px;
   background: url(../img/modal-img-7.jpg) no-repeat center;
   background-size: cover;
 }
 
 .img-center {
-  padding: 10px;
+  margin: 5px 0px 0px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
