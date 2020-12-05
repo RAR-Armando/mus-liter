@@ -10,6 +10,8 @@ const bodyImg4 = document.querySelector(".img-card-4")
 const bodyImg5 = document.querySelector(".img-card-5")
 const bodyImg6 = document.querySelector(".img-card-6")
 const bodyImg7 = document.querySelector(".img-card-7")
+const imgTheme = document.querySelector(".open-theme")
+const themeCont = document.querySelector(".themes-cont")
 
 btnToggle.addEventListener("click", function(){
 
@@ -62,4 +64,10 @@ bodyImg6.addEventListener("click", function(){
 bodyImg7.addEventListener("click", function(){
     body.classList.toggle("body-card-7")
     
+});
+
+imgTheme.addEventListener("click", function(){
+imgTheme.classList.toggle("open-theme-open")
+themeCont.classList.toggle("themes-cont-open")
+
 });
