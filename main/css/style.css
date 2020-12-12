@@ -13,6 +13,7 @@
   background: url(../img/back.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 1200px;
 }
 
 .dark-body {
