@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 * {
-  font-family: 'Comfortaa', cursive;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -11,15 +10,16 @@
 }
 
 body {
-  background: url(../img/back.png) no-repeat;
+  font-family: 'Comfortaa', cursive;
+  background: url(../img/back.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .dark-body {
-  background: url(../img/back-black.png) no-repeat;
+  background: url(../img/back-black.png);
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .content {
@@ -133,12 +133,7 @@ body {
   border-radius: 50px;
 }
 
-.themes-cont .themes-btn-dark {
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-}
-
-.themes-cont .img-btn {
+.themes-cont .btn-zen {
   margin-top: 10px;
   width: 120px;
   height: 50px;
@@ -147,121 +142,24 @@ body {
   border-radius: 50px;
 }
 
+.themes-cont .themes-btn-dark {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
 .themes-cont-open {
   right: 1em;
 }
 
 .nav-panel {
-  height: 3344px;
   position: fixed;
 }
 
-.modal-open {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: 100%;
+.content-zen {
+  padding-left: 10px;
 }
 
-.img-card-1 {
-  width: 170px;
-  height: 100px;
-  background: url(../img/modal-img-1.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.img-card-2 {
-  width: 170px;
-  height: 100px;
-  background: url(../img/modal-img-2.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.img-card-3 {
-  width: 170px;
-  height: 100px;
-  background: url(../img/modal-img-3.png) no-repeat center;
-  background-size: cover;
-}
-
-.img-card-4 {
-  width: 170px;
-  height: 100px;
-  background: url(../img/modal-img-4.png) no-repeat center;
-  background-size: cover;
-}
-
-.img-card-5 {
-  width: 170px;
-  height: 100px;
-  background: url(../img/modal-img-5.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.img-card-6 {
-  width: 170px;
-  height: 100px;
-  background: url(../img/modal-img-6.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.img-card-7 {
-  width: 170px;
-  height: 100px;
-  background: url(../img/modal-img-7.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.img-center {
-  margin: 5px 0px 0px 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.body-card-1 {
-  background: url(../img/modal-img-1.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.body-card-2 {
-  background: url(../img/modal-img-2.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.body-card-3 {
-  background: url(../img/modal-img-3.png) no-repeat center;
-  background-size: cover;
-}
-
-.body-card-4 {
-  background: url(../img/modal-img-4.png) no-repeat center;
-  background-size: cover;
-}
-
-.body-card-5 {
-  background: url(../img/modal-img-5.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.body-card-6 {
-  background: url(../img/modal-img-6.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.body-card-7 {
-  background: url(../img/modal-img-7.jpg) no-repeat center;
-  background-size: cover;
+.nav-panel-zen {
+  left: -40px;
 }
 /*# sourceMappingURL=Termins.css.map */
